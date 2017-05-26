@@ -39,7 +39,7 @@ def main(client, ad_unit_id):
   inventory_service = client.GetService('InventoryService', version='v201705')
 
   # # Create a statement to select a single ad unit by ID.
-  # 11:11 AMvalues = [{
+  # values = [{
   #     'key': 'id',
   #     'value': {
   #         'xsi_type': 'TextValue',
