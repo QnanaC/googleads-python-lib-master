@@ -41,7 +41,7 @@ def main(client):
     if 'results' in response:
       for user in response['results']:
         # Print out some information for each user.
-        print('User with ID "%d" and name "%s" was found.\n' % (user['id'],
+        print('User with ID "%d" and name "%s" was found. Printed to file. \n' % (user['id'],
                                                                 user['name']))
         # Store and write retrieved data to previously opened/created CSV file.
         valuestofile = [user['email'], user['id'],
